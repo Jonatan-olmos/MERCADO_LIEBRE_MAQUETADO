@@ -1,0 +1,86 @@
+body {
+    font-family: 'roboto';
+    max-width: 375px;
+}
+
+header {
+    background-color: var(--Amarillo);
+    font-family: 'Roboto';
+
+}
+
+.buscar {
+    position: absolute;
+    padding: 5px;
+
+}
+
+.buscar input {
+    margin-left: 20px;
+
+    padding: 0 20px 0 0;
+    color: var(--gris-claro);
+    font-size: 14px;
+    text-align: left;
+box-sizing: border-box;
+border: 30px;
+color: aliceblue;
+
+}
+
+
+.lupa .fa-solid{
+    margin-left: 20px;
+   background-color: var(--gris-claro);
+   border: 2px solid;
+
+
+}
+
+.home_header img {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+.home_header--nav--menu ul {
+    padding-top: 10px;
+}
+
+.home_header--nav--menu ul li a {
+   margin: 0PX;
+    text-decoration: none;
+    color: var(--azul);
+    font-size: var(--cuerpo-texto);
+}
+
+
+
+.burger-menu {
+
+    text-align: center;
+    padding: 30px;
+    color: var(--gris-claro);
+    box-sizing: border-box;
+  
+}
+.burger-menu i{
+    padding: 5px;
+    background-color: var(--Azul);
+    border: 3px;
+    border-radius: 3px;
+    
+}
+.home_header h2 {
+    
+    padding-top: 60px;
+    text-decoration: none;
+    color: var(--azul);
+    font-size: var(--cuerpo-texto);;
+    text-align: center;
+
+}

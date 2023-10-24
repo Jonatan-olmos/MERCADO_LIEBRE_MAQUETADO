@@ -1,0 +1,24 @@
+footer section {
+    text-align: center;
+    padding: 20px;
+    font-familyC: 'Roboto';
+       max-width: 365x;
+
+}
+footer .fa-solid{
+padding: 30px;
+    color: var(--Celeste);
+    box-sizing: border-box;
+}
+footer h4{
+    font-size: var(--Precios);
+    color: var(--Azul);
+}
+footer p{
+    font-size: var(--Descripcion);
+    color: var(--gris-oscuro);
+}
+.copi{
+    padding-top: 30px;
+   text-align: left;
+}
