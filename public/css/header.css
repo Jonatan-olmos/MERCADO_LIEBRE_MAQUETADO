@@ -2,6 +2,7 @@ body {
     font-family: 'roboto';
     max-width: 375px;
 }
+/*vista movil */
 
 header {
     background-color: var(--Amarillo);
@@ -12,10 +13,13 @@ header {
 .buscar {
     position: absolute;
     padding: 5px;
+   display: flex;
+   flex-wrap: wrap;
 
 }
 
 .buscar input {
+   
     margin-left: 20px;
 
     padding: 0 20px 0 0;
@@ -30,7 +34,8 @@ color: aliceblue;
 
 
 .lupa .fa-solid{
-    margin-left: 20px;
+    
+    margin-left: 5px;
    background-color: var(--gris-claro);
    border: 2px solid;
 
@@ -40,21 +45,15 @@ color: aliceblue;
 .home_header img {
     margin: 20px;
 }
-
-
-
-
-
-
-
 .home_header--nav--menu ul {
     padding-top: 10px;
+    display: none;
 }
 
 .home_header--nav--menu ul li a {
    margin: 0PX;
     text-decoration: none;
-    color: var(--azul);
+    color: black;
     font-size: var(--cuerpo-texto);
 }
 
@@ -83,4 +82,32 @@ color: aliceblue;
     font-size: var(--cuerpo-texto);;
     text-align: center;
 
+}
+
+/*vista tablet */
+@media (min-width: 361px) {
+ body{
+   max-width: 100%;
+ }
+ .home_header--nav--menu ul {
+    padding-top: 20px;
+    display: inline;
+}
+
+.burger-menu {
+    
+    display: none; 
+}
+
+ .home_header--nav--menu{
+
+padding: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+}  
+.home_header--nav--menu ul li a {
+   
+    text-decoration: none;
+  
+ } 
 }
