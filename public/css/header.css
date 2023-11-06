@@ -1,0 +1,262 @@
+body {
+    font-family: 'roboto';
+    max-width: 375px;
+    
+}
+/*vista movil */
+
+header  {
+    background-color: var(--Amarillo);
+    font-family: 'Roboto';
+display: flex;
+flex-wrap: wrap;
+}
+
+/*imagen heder*/
+.home_header img {
+    padding-left: 20px;
+    padding-top: 10px;
+width: 50%;
+height: 5em;
+box-sizing: border-box;
+}
+
+/*buscar*/
+.buscar {
+
+    position: absolute;
+
+   display: flex;
+   flex-wrap: wrap;
+
+   padding-right: 20px;
+   padding-top: 30px;
+   padding-left: 0px;
+   height: 4em;
+   border: 0.02  5px solid #fff;
+   border-radius: 30px;
+
+}
+.buscar input {
+   
+    margin-left: 20px;
+
+    padding: 0 20px 0 0;
+    color: var(--gris-claro);
+    font-size: 14px;
+    text-align: left;
+box-sizing: border-box;
+border: 30px;
+color: aliceblue;
+box-sizing: border-box;
+max-width: 140px;
+border-right: 20px;
+border-radius: 3px;
+position: relative;
+
+}
+
+
+.lupa .fa-solid{
+    
+    margin-left: 5px;
+
+ 
+   top: auto;
+
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 137px;
+   top: 75%;
+   transform: translateY(-50%);
+}
+
+/*menu*/
+
+
+.home_header--nav--menu ul {
+    padding-top: 10px;
+    display: none;
+}
+
+.home_header--nav--menu ul li a {
+   margin: 0PX;
+    text-decoration: none;
+    color: black;
+    font-size: var(--cuerpo-texto);
+}
+
+
+/*hamburgueza menu*/
+.burger-menu {
+ 
+    text-align: center;
+    padding: 30px;
+    color: var(--gris-claro);
+    box-sizing: border-box;
+    width: 100%;
+   
+  
+}
+.burger-menu i{
+   
+    box-sizing: border-box;
+    padding: 5px;
+   
+    background-color: var(--Azul);
+    border: 3px;
+    border-radius: 3px;
+  
+}
+/*letra */
+.home_header h2 {
+ width: 100%;
+ text-align: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+    text-decoration: none;
+    color: var(--azul);
+    font-size: var(--cuerpo-texto);
+    height: 20px;
+    padding-bottom: 10px;
+
+}
+
+/*vista tablet */
+@media (min-width: 361px) {
+ body{
+   max-width: 100%;
+ }
+ header{
+    width: 100%;
+ }
+ .home_header--nav--menu ul {
+   
+    display: inline;
+}
+
+.burger-menu {
+    
+    display: none; 
+}
+
+ .home_header--nav--menu{
+    width: 100%;
+
+padding-top: 20px;
+padding-bottom: 20px;
+
+
+}  
+
+.ul_registro{
+    padding-left: 90px;
+}
+
+.home_header--nav--menu ul li {
+    display: inline;
+    padding: 10px;
+    padding-left: 20px;
+}
+.home_header--nav--menu ul li a {
+    text-decoration: none;
+  
+ } 
+/*imagen heder*/
+.home_header img {
+width: 30%;
+
+}
+
+/*buscar*/
+.buscar {
+
+    position: absolute;
+    top: 10px;
+width: 30px;
+   display: flex;
+   flex-wrap: wrap;
+
+   padding-right: 20px;
+   padding-top: 30px;
+   padding-left: 0px;
+   height: 30px;
+   border: 0.02  5px solid #fff;
+   border-radius: 30px;
+
+}
+.buscar input {
+    position: absolute;
+width: 200px;
+ 
+max-width: 5000px;
+
+
+}
+
+
+.lupa .fa-solid{
+
+   left: 198px;
+  top: 40px;
+}
+.home_header h2 {
+  width: 20%;
+position: relative;
+width: 250px;
+   top: 40px;
+   left: 250px;
+ 
+
+}
+}
+
+@media (min-width: 770px) {
+   
+    .home_header img {
+      height: 70%;
+    }
+
+    .buscar input {
+        position: absolute;
+    width: 500px;
+     height: 30px;
+    max-width: 5000px;
+    
+    
+    }
+    
+    
+    .lupa .fa-solid{
+        font-size: 20px;
+       left: 490px;
+      top: 45px;
+    }
+    .home_header h2 {
+        width: 30%;
+       left: 530px;
+       font-size: 20px;
+    
+    }
+    
+  
+    
+     .home_header--nav--menu{
+        
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+    
+    }  
+    
+    .ul_registro{
+        padding-left: 700px;
+    }
+    
+    
+    .home_header--nav--menu ul li a {
+       
+        font-size: 20px;
+     } 
+}
