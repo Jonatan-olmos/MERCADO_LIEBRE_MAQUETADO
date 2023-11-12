@@ -1,0 +1,120 @@
+.register__main{
+    text-align: center;   
+}
+
+
+.form__label{
+    background-position-x: ;
+}
+
+.form__box_fecha{
+    width: 80%;
+    border-radius: 5px;
+    height: 30px;
+    border-color: var(--gris-claro);
+    color: rgb(115, 115, 115);
+}
+.Perfilde_usuario{
+    width: 80%;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:black;
+          
+}
+.Perfilde_usuario_div{
+    padding: 20px;
+   width: 100%;
+  word-spacing: 20px;
+        }
+.Perfilde_usuario input{
+
+    word-spacing: 15px;
+}
+.form__box-interes{
+    width: 80%;
+    text-align: left;
+    padding-bottom: 20px;
+    word-spacing: 10px;  
+}
+
+.lletra_registro{
+
+margin: 0px;
+border: 0px;
+    font-size: 40px;
+    color: black;
+}
+.letra_registro-fecha{
+    font-size: 20px;
+    color: black;
+    padding-left: 10%;
+ 
+}
+.nform__box-interes{
+    width: 80%;
+}
+.letra_registro-perfil{
+ 
+    padding: 0px;
+    font-size: 20px;
+    color: black;
+
+}
+.div_registro-perfil{
+    padding-left: 20px;
+}
+.letra_registro-foto{
+   
+    padding: 0px;
+    border: 0px;
+    font-size: 20px;
+    color: black;
+}
+.label_registro-foto{
+    padding: 20px;
+}
+.box__end {
+    margin-left: 10px;
+}
+.box__end button {
+    max-width: 100%;
+    width: 47%;
+   
+    height: 30px;
+    background-color: var(--Celeste);
+    padding-left: 2%;ight: 30px;
+    border-radius: 5px;
+}
+.box__end button a{
+    text-decoration: none;
+    color:white;
+   
+}
+.form__msg-error{
+    color:red;
+}
+.form__box-2{
+    padding: 10px;
+}
+.form__box-2 input{
+    width: 100%;
+    
+}
+
+@media (min-width: 770px) {
+    .form__box_fecha{
+        width: 50%;
+    }
+    .Perfilde_usuario{
+        width: 50%;}
+     .form__box-interes{
+            width: 50%;
+     }
+     .nform__box-interes{
+        width: 50%;
+    }
+    .letra_registro-fecha{
+      margin-left: 15%;
+    }
+}

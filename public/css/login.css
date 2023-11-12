@@ -1,0 +1,50 @@
+.login__main{
+height: 100%;
+text-align: center;
+}
+.form__box{
+    width: 100%;
+   
+  
+}
+.form{
+    width: 100%; 
+  
+
+}
+.form__box{
+    
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.form__box--position{}
+    
+.form__input{
+    height: 30px;
+width: 80%;
+padding-left: 10px;
+border-radius: 5px ; 
+border-color: var(--gris-claro);
+}
+.box__end{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+}
+.button_button__primary{
+
+    width: 80%;
+    height: 30px;
+    border-radius: 5px ; 
+   
+    background-color: var(--Celeste);
+    color: var(--gris-claro);
+   
+}
+.button_button__primary a{
+    text-decoration: none;
+    color: var(--gris-claro);
+}
