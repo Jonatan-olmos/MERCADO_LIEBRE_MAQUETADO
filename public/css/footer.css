@@ -1,11 +1,16 @@
-footer section {
+footer{
     text-align: center;
     padding: 20px;
     font-family: 'Roboto';
     max-width: 365x;
-
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 }
 
+footer section{
+    width: 100%;
+}
 footer .fa-solid {
     padding: 30px;
     color: var(--Celeste);
@@ -22,7 +27,22 @@ footer p {
     color: var(--gris-oscuro);
 }
 
-.copi {
+.footer__copyright {
     padding-top: 30px;
     text-align: left;
+    text-align: center;
+}
+
+@media(min-width: 769px){
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer section{
+        width: 33%;
+    }
+   .footer__copyright{
+width: 100%;
+text-align: center;
+    }
 }

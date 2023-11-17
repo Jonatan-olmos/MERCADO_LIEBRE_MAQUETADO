@@ -48,3 +48,6 @@ border-color: var(--gris-claro);
     text-decoration: none;
     color: var(--gris-claro);
 }
+.button_button__primary:hover{
+  background-color: #0022AA;
+}
